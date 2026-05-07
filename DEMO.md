@@ -104,7 +104,7 @@ grep -r "demo" app/ --exclude-dir=node_modules
 # Start development server
 npm run dev
 
-# Visit http://localhost:3002
+# Visit http://localhost:4923
 # Verify:
 # - No /demo route exists (should 404)
 # - No demo nav link

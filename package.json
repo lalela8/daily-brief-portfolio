@@ -4,9 +4,9 @@
   "private": true,
   "description": "Busibox Next.js App Template - uses data-api for storage",
   "scripts": {
-    "dev": "next dev -p 3002",
+    "dev": "next dev -p 4923",
     "build": "next build",
-    "start": "next start -p 3002",
+    "start": "next start -p 4923",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",

@@ -51,7 +51,7 @@ Key settings to update:
 npm run dev
 ```
 
-Visit http://localhost:3002
+Visit http://localhost:4923
 
 ## Demo Features (Delete Before Production)
 

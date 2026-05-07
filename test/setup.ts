@@ -15,4 +15,4 @@ vi.mock("next/navigation", () => ({
 
 // Mock environment variables
 process.env.NEXT_PUBLIC_BASE_PATH = "";
-process.env.NEXT_PUBLIC_APP_URL = "http://localhost:3002";
+process.env.NEXT_PUBLIC_APP_URL = "http://localhost:4923";

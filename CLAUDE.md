@@ -16,7 +16,7 @@ This file provides guidance to Claude Code (claude.ai/code) and Cursor AI when w
 # Install dependencies
 npm install
 
-# Run development server (port 3002)
+# Run development server (port 4923)
 npm run dev
 
 # Build for production
@@ -435,7 +435,7 @@ When a user is added to a team, ensure the team role is added to ALL documents a
 
 ```bash
 APP_NAME=my-app              # Token audience and cookie prefix
-PORT=3002
+PORT=4923
 NEXT_PUBLIC_BASE_PATH=       # e.g., /myapp for nginx proxy
 NEXT_PUBLIC_BUSIBOX_PORTAL_URL=http://localhost:3000
 AUTHZ_BASE_URL=http://localhost:8010
@@ -571,6 +571,6 @@ npm install
 2. **Authentication**: Uses Busibox SSO via `SessionProvider` -- no custom auth needed
 3. **Import paths**: Use `lib/authz` (not `lib/auth`) for auth utilities
 4. **Deployment**: Always use `make install SERVICE=<app-name>` from busibox repo
-5. **Port**: Default port is 3002 (adjust in env if needed)
+5. **Port**: Default port is 4923 (adjust in env if needed)
 6. **Base Path**: Configure `NEXT_PUBLIC_BASE_PATH` for nginx proxy routing
 7. **Appbuilder**: This template is used by the appbuilder to scaffold new apps

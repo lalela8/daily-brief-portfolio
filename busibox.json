@@ -6,7 +6,7 @@
   "description": "Demo application showcasing Busibox SSO authentication, data-api CRUD operations, and agent API calls. Includes deletable demo features for testing deployment.",
   "icon": "Boxes",
   "defaultPath": "/myapp",
-  "defaultPort": 3002,
+  "defaultPort": 4923,
   "healthEndpoint": "/api/health",
   "buildCommand": "npm run build",
   "startCommand": "npm start",
